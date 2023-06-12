@@ -77,13 +77,10 @@ public class Login {
 				user.setuserpwd(pwd_text);
 				//给登陆接口实现类初始化对象
 				LoginUseImp l = new LoginUseImp();
-				//获取标志量
 				String state = user.getFlag();
-				//判断标志量，设置文本框的默认值为管理员
 				if(state != "1" && state != "2") {
 					state = "2";
 				}
-				//判断文本框值是不是管理员
 				if(state == "2") {
 					try {
 						//执行sql语句，进行数据库添加
@@ -105,7 +102,6 @@ public class Login {
 					} catch (SQLException e1) {
 						e1.printStackTrace();
 					}
-					//判断是不是普通用户
 				}
 			}
 		});
