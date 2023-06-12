@@ -8,7 +8,7 @@
 - swing 
 - mysql
 
-![图片](image/1.png"相对路径演示") 
+![图片](https://github.com/Phny111/warehousemanage/blob/61bfbcace998099486b0df54953f7290ab733ea2/image/1.png"图片") 
 
 ![图片](https://github.com/Phny111/warehousemanage/blob/d7d1f1487e7d93ae3a79165bead52dde9d916978/image/2.png)"图片")
 
